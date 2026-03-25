@@ -1,6 +1,5 @@
 #include "MyActor.h"
-#include "Engine/Engine.h"   // <-- THIS WAS MISSING: required for GEngine
-
+#include "Engine/Engine.h"  
 AMyActor::AMyActor()
 {
 	PrimaryActorTick.bCanEverTick = true;
