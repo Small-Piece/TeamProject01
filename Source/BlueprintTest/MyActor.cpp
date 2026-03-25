@@ -19,6 +19,8 @@ void AMyActor::BeginPlay()
 		true,
 		0.0f
 	);
+
+	UE_LOG(LogTemp, Warning, TEXT("AMyActor has begun play!"));
 }
 
 void AMyActor::Tick(float DeltaTime)
